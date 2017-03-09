@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60084EFC1E716F5C007020EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EFB1E716F5C007020EC /* main.m */; };
+		60084EFF1E716F5C007020EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EFE1E716F5C007020EC /* AppDelegate.m */; };
+		60084F021E716F5C007020EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084F011E716F5C007020EC /* ViewController.m */; };
+		60084F051E716F5C007020EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60084F031E716F5C007020EC /* Main.storyboard */; };
+		60084F071E716F5C007020EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60084F061E716F5C007020EC /* Assets.xcassets */; };
+		60084F0A1E716F5C007020EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60084F081E716F5C007020EC /* LaunchScreen.storyboard */; };
+		60084F151E716F5C007020EC /* GKWXManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084F141E716F5C007020EC /* GKWXManagerTests.m */; };
+		60084F201E716F5C007020EC /* GKWXManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084F1F1E716F5C007020EC /* GKWXManagerUITests.m */; };
+		60084F351E716F8D007020EC /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F2F1E716F8D007020EC /* libWeChatSDK.a */; };
+		60084F391E716FBB007020EC /* GKWXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084F381E716FBB007020EC /* GKWXManager.m */; };
+		60084F3C1E716FE8007020EC /* GKShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084F3B1E716FE8007020EC /* GKShareModel.m */; };
+		60084F401E717719007020EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F3F1E717719007020EC /* SystemConfiguration.framework */; };
+		60084F421E717728007020EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F411E717728007020EC /* Security.framework */; };
+		60084F441E71772D007020EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F431E71772D007020EC /* CoreTelephony.framework */; };
+		60084F461E717735007020EC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F451E717735007020EC /* CFNetwork.framework */; };
+		60084F481E717740007020EC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F471E717740007020EC /* libz.tbd */; };
+		60084F4A1E71774D007020EC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F491E71774C007020EC /* libsqlite3.0.tbd */; };
+		60084F4C1E717763007020EC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60084F4B1E717763007020EC /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60084F111E716F5C007020EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60084EEF1E716F5C007020EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60084EF61E716F5C007020EC;
+			remoteInfo = GKWXManager;
+		};
+		60084F1C1E716F5C007020EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60084EEF1E716F5C007020EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60084EF61E716F5C007020EC;
+			remoteInfo = GKWXManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60084EF71E716F5C007020EC /* GKWXManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKWXManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084EFB1E716F5C007020EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60084EFD1E716F5C007020EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60084EFE1E716F5C007020EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60084F001E716F5C007020EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60084F011E716F5C007020EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60084F041E716F5C007020EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60084F061E716F5C007020EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60084F091E716F5C007020EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60084F0B1E716F5C007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084F101E716F5C007020EC /* GKWXManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKWXManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084F141E716F5C007020EC /* GKWXManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKWXManagerTests.m; sourceTree = "<group>"; };
+		60084F161E716F5C007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084F1B1E716F5C007020EC /* GKWXManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKWXManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084F1F1E716F5C007020EC /* GKWXManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKWXManagerUITests.m; sourceTree = "<group>"; };
+		60084F211E716F5C007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084F2F1E716F8D007020EC /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		60084F321E716F8D007020EC /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		60084F331E716F8D007020EC /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		60084F371E716FBB007020EC /* GKWXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKWXManager.h; sourceTree = "<group>"; };
+		60084F381E716FBB007020EC /* GKWXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKWXManager.m; sourceTree = "<group>"; };
+		60084F3A1E716FE8007020EC /* GKShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKShareModel.h; sourceTree = "<group>"; };
+		60084F3B1E716FE8007020EC /* GKShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKShareModel.m; sourceTree = "<group>"; };
+		60084F3D1E71763B007020EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60084F3F1E717719007020EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60084F411E717728007020EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60084F431E71772D007020EC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60084F451E717735007020EC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		60084F471E717740007020EC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		60084F491E71774C007020EC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		60084F4B1E717763007020EC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60084EF41E716F5C007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084F4C1E717763007020EC /* libc++.tbd in Frameworks */,
+				60084F4A1E71774D007020EC /* libsqlite3.0.tbd in Frameworks */,
+				60084F481E717740007020EC /* libz.tbd in Frameworks */,
+				60084F461E717735007020EC /* CFNetwork.framework in Frameworks */,
+				60084F441E71772D007020EC /* CoreTelephony.framework in Frameworks */,
+				60084F421E717728007020EC /* Security.framework in Frameworks */,
+				60084F401E717719007020EC /* SystemConfiguration.framework in Frameworks */,
+				60084F351E716F8D007020EC /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F0D1E716F5C007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F181E716F5C007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60084EEE1E716F5C007020EC = {
+			isa = PBXGroup;
+			children = (
+				60084EF91E716F5C007020EC /* GKWXManager */,
+				60084F131E716F5C007020EC /* GKWXManagerTests */,
+				60084F1E1E716F5C007020EC /* GKWXManagerUITests */,
+				60084EF81E716F5C007020EC /* Products */,
+				60084F3E1E717719007020EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60084EF81E716F5C007020EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60084EF71E716F5C007020EC /* GKWXManager.app */,
+				60084F101E716F5C007020EC /* GKWXManagerTests.xctest */,
+				60084F1B1E716F5C007020EC /* GKWXManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60084EF91E716F5C007020EC /* GKWXManager */ = {
+			isa = PBXGroup;
+			children = (
+				60084F361E716FBB007020EC /* GKWXManager */,
+				60084F2D1E716F8D007020EC /* WeChat */,
+				60084EFD1E716F5C007020EC /* AppDelegate.h */,
+				60084EFE1E716F5C007020EC /* AppDelegate.m */,
+				60084F001E716F5C007020EC /* ViewController.h */,
+				60084F011E716F5C007020EC /* ViewController.m */,
+				60084F031E716F5C007020EC /* Main.storyboard */,
+				60084F061E716F5C007020EC /* Assets.xcassets */,
+				60084F081E716F5C007020EC /* LaunchScreen.storyboard */,
+				60084F0B1E716F5C007020EC /* Info.plist */,
+				60084EFA1E716F5C007020EC /* Supporting Files */,
+			);
+			path = GKWXManager;
+			sourceTree = "<group>";
+		};
+		60084EFA1E716F5C007020EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60084EFB1E716F5C007020EC /* main.m */,
+				60084F3D1E71763B007020EC /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60084F131E716F5C007020EC /* GKWXManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				60084F141E716F5C007020EC /* GKWXManagerTests.m */,
+				60084F161E716F5C007020EC /* Info.plist */,
+			);
+			path = GKWXManagerTests;
+			sourceTree = "<group>";
+		};
+		60084F1E1E716F5C007020EC /* GKWXManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60084F1F1E716F5C007020EC /* GKWXManagerUITests.m */,
+				60084F211E716F5C007020EC /* Info.plist */,
+			);
+			path = GKWXManagerUITests;
+			sourceTree = "<group>";
+		};
+		60084F2D1E716F8D007020EC /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				60084F2F1E716F8D007020EC /* libWeChatSDK.a */,
+				60084F321E716F8D007020EC /* WXApi.h */,
+				60084F331E716F8D007020EC /* WXApiObject.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		60084F361E716FBB007020EC /* GKWXManager */ = {
+			isa = PBXGroup;
+			children = (
+				60084F371E716FBB007020EC /* GKWXManager.h */,
+				60084F381E716FBB007020EC /* GKWXManager.m */,
+				60084F3A1E716FE8007020EC /* GKShareModel.h */,
+				60084F3B1E716FE8007020EC /* GKShareModel.m */,
+			);
+			path = GKWXManager;
+			sourceTree = "<group>";
+		};
+		60084F3E1E717719007020EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60084F4B1E717763007020EC /* libc++.tbd */,
+				60084F491E71774C007020EC /* libsqlite3.0.tbd */,
+				60084F471E717740007020EC /* libz.tbd */,
+				60084F451E717735007020EC /* CFNetwork.framework */,
+				60084F431E71772D007020EC /* CoreTelephony.framework */,
+				60084F411E717728007020EC /* Security.framework */,
+				60084F3F1E717719007020EC /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60084EF61E716F5C007020EC /* GKWXManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084F241E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManager" */;
+			buildPhases = (
+				60084EF31E716F5C007020EC /* Sources */,
+				60084EF41E716F5C007020EC /* Frameworks */,
+				60084EF51E716F5C007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKWXManager;
+			productName = GKWXManager;
+			productReference = 60084EF71E716F5C007020EC /* GKWXManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60084F0F1E716F5C007020EC /* GKWXManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084F271E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManagerTests" */;
+			buildPhases = (
+				60084F0C1E716F5C007020EC /* Sources */,
+				60084F0D1E716F5C007020EC /* Frameworks */,
+				60084F0E1E716F5C007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60084F121E716F5C007020EC /* PBXTargetDependency */,
+			);
+			name = GKWXManagerTests;
+			productName = GKWXManagerTests;
+			productReference = 60084F101E716F5C007020EC /* GKWXManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60084F1A1E716F5C007020EC /* GKWXManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084F2A1E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManagerUITests" */;
+			buildPhases = (
+				60084F171E716F5C007020EC /* Sources */,
+				60084F181E716F5C007020EC /* Frameworks */,
+				60084F191E716F5C007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60084F1D1E716F5C007020EC /* PBXTargetDependency */,
+			);
+			name = GKWXManagerUITests;
+			productName = GKWXManagerUITests;
+			productReference = 60084F1B1E716F5C007020EC /* GKWXManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60084EEF1E716F5C007020EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "高坤";
+				TargetAttributes = {
+					60084EF61E716F5C007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+					};
+					60084F0F1E716F5C007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60084EF61E716F5C007020EC;
+					};
+					60084F1A1E716F5C007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60084EF61E716F5C007020EC;
+					};
+				};
+			};
+			buildConfigurationList = 60084EF21E716F5C007020EC /* Build configuration list for PBXProject "GKWXManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60084EEE1E716F5C007020EC;
+			productRefGroup = 60084EF81E716F5C007020EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60084EF61E716F5C007020EC /* GKWXManager */,
+				60084F0F1E716F5C007020EC /* GKWXManagerTests */,
+				60084F1A1E716F5C007020EC /* GKWXManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60084EF51E716F5C007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084F0A1E716F5C007020EC /* LaunchScreen.storyboard in Resources */,
+				60084F071E716F5C007020EC /* Assets.xcassets in Resources */,
+				60084F051E716F5C007020EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F0E1E716F5C007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F191E716F5C007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60084EF31E716F5C007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084F391E716FBB007020EC /* GKWXManager.m in Sources */,
+				60084F3C1E716FE8007020EC /* GKShareModel.m in Sources */,
+				60084F021E716F5C007020EC /* ViewController.m in Sources */,
+				60084EFF1E716F5C007020EC /* AppDelegate.m in Sources */,
+				60084EFC1E716F5C007020EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F0C1E716F5C007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084F151E716F5C007020EC /* GKWXManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084F171E716F5C007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084F201E716F5C007020EC /* GKWXManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60084F121E716F5C007020EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60084EF61E716F5C007020EC /* GKWXManager */;
+			targetProxy = 60084F111E716F5C007020EC /* PBXContainerItemProxy */;
+		};
+		60084F1D1E716F5C007020EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60084EF61E716F5C007020EC /* GKWXManager */;
+			targetProxy = 60084F1C1E716F5C007020EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60084F031E716F5C007020EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60084F041E716F5C007020EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60084F081E716F5C007020EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60084F091E716F5C007020EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60084F221E716F5C007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60084F231E716F5C007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60084F251E716F5C007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				GCC_PREFIX_HEADER = GKWXManager/PrefixHeader.pch;
+				INFOPLIST_FILE = GKWXManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GKWXManager/WeChat",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60084F261E716F5C007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				GCC_PREFIX_HEADER = GKWXManager/PrefixHeader.pch;
+				INFOPLIST_FILE = GKWXManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GKWXManager/WeChat",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60084F281E716F5C007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKWXManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKWXManager.app/GKWXManager";
+			};
+			name = Debug;
+		};
+		60084F291E716F5C007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKWXManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKWXManager.app/GKWXManager";
+			};
+			name = Release;
+		};
+		60084F2B1E716F5C007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKWXManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKWXManager;
+			};
+			name = Debug;
+		};
+		60084F2C1E716F5C007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKWXManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKWXManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKWXManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60084EF21E716F5C007020EC /* Build configuration list for PBXProject "GKWXManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084F221E716F5C007020EC /* Debug */,
+				60084F231E716F5C007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60084F241E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084F251E716F5C007020EC /* Debug */,
+				60084F261E716F5C007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60084F271E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084F281E716F5C007020EC /* Debug */,
+				60084F291E716F5C007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60084F2A1E716F5C007020EC /* Build configuration list for PBXNativeTarget "GKWXManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084F2B1E716F5C007020EC /* Debug */,
+				60084F2C1E716F5C007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60084EEF1E716F5C007020EC /* Project object */;
+}
